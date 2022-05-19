@@ -11,7 +11,7 @@ import java.util.Random;
 public class Ball implements Runnable
 {
     private Ellipse2D.Double ball; // Ball objects shape attributes
-    private Dimension ballDimension; // Store size of a Ball
+    private Dimension ballDimension; // Here Store size of a Ball
     private Point2D.Double ballCoords; // Store location coords of a Ball
     private Point2D.Double ballVelocity; // Store x and y velocity of Ball
     private final Color colorOfBall; // Store randomized color of ball
