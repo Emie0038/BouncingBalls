@@ -26,7 +26,7 @@ public class BouncingBalls
             b.moveBall(); // Move each Ball object
             try
             {
-                Thread.sleep(20);
+                Thread.sleep(5);
             }
             catch(Exception event){}
         }
